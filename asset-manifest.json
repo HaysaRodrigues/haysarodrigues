@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/haysarodrigues/static/css/main.584f321a.chunk.css",
-    "main.js": "/haysarodrigues/static/js/main.88d352ad.chunk.js",
-    "main.js.map": "/haysarodrigues/static/js/main.88d352ad.chunk.js.map",
+    "main.css": "/haysarodrigues/static/css/main.7cef6799.chunk.css",
+    "main.js": "/haysarodrigues/static/js/main.d0b37209.chunk.js",
+    "main.js.map": "/haysarodrigues/static/js/main.d0b37209.chunk.js.map",
     "runtime~main.js": "/haysarodrigues/static/js/runtime~main.eca11fe3.js",
     "runtime~main.js.map": "/haysarodrigues/static/js/runtime~main.eca11fe3.js.map",
-    "static/js/2.b41502e9.chunk.js": "/haysarodrigues/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/haysarodrigues/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/haysarodrigues/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/haysarodrigues/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/haysarodrigues/index.html",
-    "precache-manifest.40cce6fea4e35704950499eff8b4ac5b.js": "/haysarodrigues/precache-manifest.40cce6fea4e35704950499eff8b4ac5b.js",
+    "precache-manifest.5611e9d268960b06ca49371ac3e09856.js": "/haysarodrigues/precache-manifest.5611e9d268960b06ca49371ac3e09856.js",
     "service-worker.js": "/haysarodrigues/service-worker.js",
-    "static/css/main.584f321a.chunk.css.map": "/haysarodrigues/static/css/main.584f321a.chunk.css.map",
-    "static/media/logo.svg": "/haysarodrigues/static/media/logo.5d5d9eef.svg"
+    "static/css/main.7cef6799.chunk.css.map": "/haysarodrigues/static/css/main.7cef6799.chunk.css.map"
   }
 }
