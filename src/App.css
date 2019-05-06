@@ -37,6 +37,21 @@ li {
   color: #424242;
 }
 
+.icon-items {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon-item {
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.contact {
+  text-decoration: none;
+  color: #000000;
+}
+
 .app-left-menu {
   margin-top: 15%;
 }

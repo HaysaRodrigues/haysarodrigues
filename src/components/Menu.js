@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faFlickr } from "@fortawesome/free-brands-svg-icons"
 
 export default class Menu extends Component {
   render() {
@@ -12,7 +14,17 @@ export default class Menu extends Component {
             <li>interior de pernambuco</li>
             <li>recife</li>
             <li>sobre mim</li>
-            <li>contatos</li>
+            <li>
+              <a className="contact" href="mailto:rodrigues.haysa@gmail.com" target="blank">
+                me manda um e-mail
+              </a>
+            </li>
+            <li>
+              <div className="icon-items" >
+                  <FontAwesomeIcon className="icon-item" icon={faInstagram} color='#000000'/>
+                  <FontAwesomeIcon className="icon-item" icon={faFlickr} color='#000000'/>
+              </div>
+            </li>
           </ul>
         </nav>
       </div>
