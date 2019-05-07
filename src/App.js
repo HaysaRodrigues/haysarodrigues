@@ -6,6 +6,8 @@ import MainImage from './components/MainImage';
 import RioSaoFrancisco from './components/stories/RioSaoFrancisco'
 import Catimbau from './components/stories/Catimbau'
 import InteriorPernambuco from './components/stories/InteriorPernambuco'
+import Recife from './components/stories/Recife';
+import AboutMe from './components/AboutMe';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
               <Route path='/riosaofrancisco' component={ RioSaoFrancisco } />
               <Route path='/catimbau' component={ Catimbau } />
               <Route path='/interiordepernambuco' component={ InteriorPernambuco }/>   
+              <Route path='/recife' component={ Recife }/>
+              <Route path='/aboutme' component={ AboutMe }/>
           </Switch>
           </div>
         </div>  
