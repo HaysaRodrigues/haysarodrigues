@@ -3,9 +3,9 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainImage from './components/MainImage';
-import RioSaoFrancisco from './components/story/RioSaoFrancisco'
-import Catimbau from './components/story/Catimbau'
-import InteriorPernambuco from './components/story/InteriorPernambuco'
+import RioSaoFrancisco from './components/stories/RioSaoFrancisco'
+import Catimbau from './components/stories/Catimbau'
+import InteriorPernambuco from './components/stories/InteriorPernambuco'
 
 
 function App() {
