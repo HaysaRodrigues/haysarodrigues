@@ -33,8 +33,12 @@ li {
 .name {
   font-weight: 700;
   font-size: x-large;
-  text-decoration: none;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
   color: #424242;
+  text-decoration: none; 
+  cursor: pointer;
 }
 
 .icon-items {

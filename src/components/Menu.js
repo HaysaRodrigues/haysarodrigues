@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faFlickr } from "@fortawesome/free-brands-svg-icons"
 
@@ -14,12 +15,12 @@ export default class Menu extends Component {
       <div>
         <nav>
           <ul>
-            <li>rio são francisco</li>
-            <li>catimbau</li>
-            <li>circo da trindade</li>
-            <li>interior de pernambuco</li>
-            <li>recife</li>
-            <li>sobre mim</li>
+            <li className="name"><Link to={'/'} > haysa rodrigues </Link></li>
+            <li><Link to={'/riosaofrancisco'} > rio são francisco </Link></li>
+            <li><Link to={'/catimbau'} > catimbau </Link></li>
+            <li><Link to={'/interiordepernambuco'}> interior de pernambuco </Link></li>
+            <li><Link to={'/recife'}> recife </Link></li>
+            <li><Link to={'/aboutme'}> sobre mim </Link></li>
             <li>
               <a className="contact" href="mailto:rodrigues.haysa@gmail.com" target="blank" rel="noopener noreferrer">
                 me manda um e-mail
