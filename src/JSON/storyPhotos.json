@@ -1,0 +1,16 @@
+{
+  "story": {
+    "title": "'titulo da historia'",
+    "portugueseVersion": "'escrever umas coisas aqui'",
+    "englishVersion": "'write some stuff here'",
+    "imagesFromStory": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Trilha_da_igrejinha%2C_Vale_do_Catimbau%2C_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Parque_Nacional_do_Catimbau_Pernambuco%2C_trilha_da_igrejinha.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Pinturas_rupestres_catimbau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Parque_Nacional_Catimbau%282%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Catimbau_Bu%C3%ADque_Pernambuco.jpg"
+    ]
+  }
+}

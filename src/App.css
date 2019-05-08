@@ -35,6 +35,31 @@ li {
   font-size: x-large;
 }
 
+.story {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.storyTitle {
+  color: #424242;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paragraphsFont {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: #424242;
+}
+
 a, a:link, a:visited, a:focus, a:hover, a:active{
   color: #424242;
   text-decoration: none; 
@@ -48,11 +73,6 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 
 .icon-item {
   margin-right: 3%;
-}
-
-.contact {
-  text-decoration: none;
-  color: #000000;
 }
 
 .app-left-menu {

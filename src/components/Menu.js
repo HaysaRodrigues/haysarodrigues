@@ -22,7 +22,7 @@ export default class Menu extends Component {
             <li><Link to={'/recife'}> recife </Link></li>
             <li><Link to={'/aboutme'}> sobre mim </Link></li>
             <li>
-              <a className="contact" href="mailto:rodrigues.haysa@gmail.com" target="blank" rel="noopener noreferrer">
+              <a href="mailto:rodrigues.haysa@gmail.com" target="blank" rel="noopener noreferrer">
                 me manda um e-mail
               </a>
             </li>
