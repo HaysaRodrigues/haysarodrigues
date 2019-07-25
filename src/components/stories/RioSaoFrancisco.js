@@ -8,7 +8,9 @@ export default class RioSaoFrancisco extends Component {
   render() {
     return (
       <div>
-        <Story firstParagraph = {firstParagraph} secondParagraph = {secondParagraph}/>
+        <Story 
+          firstParagraph={firstParagraph} 
+          secondParagraph={secondParagraph}/>
       </div>
     )
   }

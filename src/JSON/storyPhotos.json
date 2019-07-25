@@ -1,8 +1,50 @@
 {
-  "story": {
-    "title": "'titulo da historia'",
-    "portugueseVersion": "'escrever umas coisas aqui'",
-    "englishVersion": "'write some stuff here'",
+  "story": [{
+    "title": "rio são francisco",
+    "firstParagraph": "lugar mágica, de uma energia que eu acho até impossível de transcrever. é um lugar cheio de história, cheio de alegria, tristeza e tragédia. mas ao mesmo tempo é um sentimento de pertencimento...",
+    "secondParagraph": "lugar mágica, de uma energia que eu acho até impossível de transcrever. é um lugar cheio de história, cheio de alegria, tristeza e tragédia. mas ao mesmo tempo é um sentimento de pertencimento...",
+    "imagesFromStory": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Trilha_da_igrejinha%2C_Vale_do_Catimbau%2C_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Parque_Nacional_do_Catimbau_Pernambuco%2C_trilha_da_igrejinha.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Pinturas_rupestres_catimbau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Parque_Nacional_Catimbau%282%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Catimbau_Bu%C3%ADque_Pernambuco.jpg"
+    ]
+  }, 
+  {
+    "title": "catimbau",
+    "firstParagraph": "o sertão vai virar mar? não sei, mas te digo que o sertão já foi mar. e se foi mar, esse lugar com certeza era no catimbau. com certeza, ali caiu um meteoro, criou-se vegetações e pedra ficaram sofridas e machucadas, porém bonitas aos olhos de quem assiste sem saber o que realmente faz desse lugar ser(tão).",
+    "secondParagraph": "o sertão vai virar mar? não sei, mas te digo que o sertão já foi mar. e se foi mar, esse lugar com certeza era no catimbau. com certeza, ali caiu um meteoro, criou-se vegetações e pedra ficaram sofridas e machucadas, porém bonitas aos olhos de quem assiste sem saber o que realmente faz desse lugar ser(tão).",
+    "imagesFromStory": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Trilha_da_igrejinha%2C_Vale_do_Catimbau%2C_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Parque_Nacional_do_Catimbau_Pernambuco%2C_trilha_da_igrejinha.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Pinturas_rupestres_catimbau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Parque_Nacional_Catimbau%282%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Catimbau_Bu%C3%ADque_Pernambuco.jpg"
+    ]
+  }, 
+  {
+    "title": "interior de pernambuco",
+    "firstParagraph": "o interior de pernambuco tem cidades pra tudo quanto é gosto, bolso e férias. ",
+    "secondParagraph": "o interior de pernambuco tem cidades pra tudo quanto é gosto, bolso e férias. ",
+    "imagesFromStory": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Trilha_da_igrejinha%2C_Vale_do_Catimbau%2C_Pernambuco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Parque_Nacional_do_Catimbau_Pernambuco%2C_trilha_da_igrejinha.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Pinturas_rupestres_catimbau.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Parque_Nacional_Catimbau%282%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/Catimbau_Bu%C3%ADque_Pernambuco.jpg"
+    ]
+  },
+  {
+    "title": "recife",
+    "firstParagraph": "quando eu penso em recife, eu só penso em chico science. não tem outra opção pra mim a não ser citar alguma música dele.",
+    "secondParagraph": "'Recife, cidade do mangue / Incrustada na lama dos manguezais / Onde estão os homens caranguejos / Minha corda costuma sair de andada / No meio das ruas, em cima das pontes / É só uma cabeça equilibrada em cima do corpo / Procurando antenar boas vibrações / Preocupando antenar boa diversão'",
     "imagesFromStory": [
       "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parque_Nacional_do_Catimbau_Pernambuco.jpg",
@@ -13,4 +55,6 @@
       "https://upload.wikimedia.org/wikipedia/commons/7/78/Catimbau_Bu%C3%ADque_Pernambuco.jpg"
     ]
   }
+]
 }
+
