@@ -24,6 +24,7 @@ li {
     align-self: center;
     align-content: center;
     margin: 12px 15px auto;
+    max-width: 60%;
 }
 
 .columnMenu {
@@ -40,7 +41,6 @@ li {
 .story {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
 }
 
 .storyTitle {
@@ -48,6 +48,7 @@ li {
     text-align: center;
     font-weight: 100;
     letter-spacing: 2px;
+    margin-top: 5%;
 }
 
 .paragraphs {
@@ -68,12 +69,12 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
     cursor: pointer;
 }
 
-.icon-items {
+.iconItems {
     display: flex;
     justify-content: flex-start;
 }
 
-.icon-item {
+.iconItem {
     margin-right: 3%;
 }
 
@@ -91,10 +92,10 @@ footer {
     text-align: center;
 }
 
-.main-image {
+.mainImage {
     margin-top: 5%;
 }
 
-.App-link {
+.appLink {
     color: #61dafb;
 }

@@ -4,10 +4,10 @@
 }
 
 .imageCropper {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
     border-radius: 50%;
 }
 

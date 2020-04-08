@@ -5,7 +5,7 @@ import { faInstagram, faFlickr } from "@fortawesome/free-brands-svg-icons"
 
 
 const IconLink = props =>
-  <a className="icon-item" href={props.link} target="blank" rel="noopener noreferrer">
+  <a className="iconItem" href={props.link} target="blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={props.icon} color='#000000'/>
   </a>;
   
@@ -27,7 +27,7 @@ export default class Menu extends Component {
               </a>
             </li>
             <li>
-              <div className="icon-items">
+              <div className="iconItems">
                   <IconLink link="https://www.instagram.com/r.haysa/" icon={faInstagram}/>
                   <IconLink link="https://www.flickr.com/people/haysarodrigues/" icon={faFlickr}/>
               </div>

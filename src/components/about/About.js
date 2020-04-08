@@ -6,7 +6,7 @@ export default class About extends Component {
     render() {
         return (
             <div className='aboutContainer'>
-                <h1 className='aboutTitle'>Quem?</h1>
+                <h1 className='storyTitle'>Quem fez esse site e essas fotos?</h1>
                 <div className='imageCropper'>
                     <img className='aboutMeImage'
                          src={aboutMeImage}
@@ -14,16 +14,17 @@ export default class About extends Component {
                     />
                 </div>
 
-
-                <p className='aboutDescription'>
-                    Uma cabeça inquieta e ao mesmo tempo vazia. Curiosa e
+                <p className='paragraphsFont'>
+                    <p>Uma cabeça inquieta e ao mesmo tempo vazia. Curiosa e
                     entediada, encontrei na fotografia um escape enorme para
                     fugir dos estresses do dia a dia, e descobri que com ela,
                     eu consigo me conectar e enxeragar as coisas com outros olhares.
-                    <br/>
+                    </p>
+                    <p>
                     Olhares esses que nem sempre fazem bem mas que abrem minha cabeça
                     pra entender melhor que na vida nem tudo deve ser problematização.
                     Se não a gente endoida.
+                    </p>
                 </p>
 
             </div>
