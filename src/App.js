@@ -26,7 +26,7 @@ function App() {
           </div>
           <div className='column-photo'>
             <Switch>
-                <Route exact path='/' component={ MainImage } />
+                <Route path='/' component={ MainImage } />
                 <Route path='/riosaofrancisco' component={ RioSaoFrancisco } />
                 <Route path='/catimbau' component={ Catimbau } />
                 <Route path='/interiordepernambuco' component={ InteriorPernambuco }/>   
