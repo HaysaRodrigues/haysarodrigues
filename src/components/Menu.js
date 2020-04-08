@@ -20,7 +20,7 @@ export default class Menu extends Component {
             <li><Link to={'/catimbau'} > catimbau </Link></li>
             <li><Link to={'/interiordepernambuco'}> interior de pernambuco </Link></li>
             <li><Link to={'/recife'}> recife </Link></li>
-            <li><Link to={'/aboutme'}> sobre mim </Link></li>
+            <li><Link to={'/about'}> sobre </Link></li>
             <li>
               <a href="mailto:rodrigues.haysa@gmail.com" target="blank" rel="noopener noreferrer">
                 me manda um e-mail

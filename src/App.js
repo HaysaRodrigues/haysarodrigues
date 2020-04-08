@@ -7,31 +7,31 @@ import RioSaoFrancisco from './components/stories/RioSaoFrancisco'
 import Catimbau from './components/stories/Catimbau'
 import InteriorPernambuco from './components/stories/InteriorPernambuco'
 import Recife from './components/stories/Recife';
-import AboutMe from './components/AboutMe';
+import About from './components/about/About';
 
 
 function App() {
   return (
     <Router>
-      <div className="main-div">
-        <div className='row'> 
-          <div className='column-menu'>
+      <div className="mainContainer">
+        <div className='menuContainer'>
+          <div className='columnMenu'>
             <header>
               <div>
-                <div className="app-left-menu">
+                <div className="appLeftMenu">
                   <Menu />
                 </div>  
               </div>
             </header>
           </div>
-          <div className='column-photo'>
+          <div className='container'>
             <Switch>
-                <Route path='/' component={ MainImage } />
+                <Route exact path='/' component={ MainImage } />
                 <Route path='/riosaofrancisco' component={ RioSaoFrancisco } />
                 <Route path='/catimbau' component={ Catimbau } />
                 <Route path='/interiordepernambuco' component={ InteriorPernambuco }/>   
                 <Route path='/recife' component={ Recife }/>
-                <Route path='/aboutme' component={ AboutMe }/>
+                <Route path='/about' component={ About }/>
             </Switch>
           </div>
         </div>  

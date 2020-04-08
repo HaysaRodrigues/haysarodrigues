@@ -1,98 +1,100 @@
 ul {
-  list-style-type: none;
-  padding-inline-start: 0px;
+    list-style-type: none;
+    padding-inline-start: 0px;
 }
 
 li {
-  line-height: 2.5;
+    line-height: 2.5;
 }
 
-.main-div {
-  margin: 15px;
+.mainContainer {
+    margin: 15px;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.column-photo {
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 60em;
-}      
+.container {
+    justify-content: space-between;
+    display: grid;
+    align-self: center;
+    align-content: center;
+    margin: 12px 15px auto;
+}
 
-.column-menu {
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 25em;
-}  
+.columnMenu {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25em;
+}
 
 .name {
-  font-weight: 700;
-  font-size: x-large;
+    font-weight: 700;
+    font-size: x-large;
 }
 
 .story {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
 }
 
 .storyTitle {
-  color: #424242;
-  text-align: center;
-  font-weight: 100;
-  letter-spacing: 2px;
+    color: #424242;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 .paragraphs {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .paragraphsFont {
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  color: #424242;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #424242;
 }
 
-a, a:link, a:visited, a:focus, a:hover, a:active{
-  color: #424242;
-  text-decoration: none; 
-  cursor: pointer;
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #424242;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .icon-items {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .icon-item {
-  margin-right: 3%;
+    margin-right: 3%;
 }
 
-.app-left-menu {
-  margin-top: 15%;
+.appLeftMenu {
+    margin-top: 15%;
 }
 
 header {
-  margin-left: 10%;
-  margin-top: 25%;
-  margin-bottom: 5%;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 5%;
 }
 
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 .main-image {
-  margin-top: 5%;
-} 
+    margin-top: 5%;
+}
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
