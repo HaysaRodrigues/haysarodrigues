@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/haysarodrigues/static/css/main.be1cf525.chunk.css",
-    "main.js": "/haysarodrigues/static/js/main.cb45a5eb.chunk.js",
-    "main.js.map": "/haysarodrigues/static/js/main.cb45a5eb.chunk.js.map",
+    "main.css": "/haysarodrigues/static/css/main.d6db9a41.chunk.css",
+    "main.js": "/haysarodrigues/static/js/main.b9b4f74e.chunk.js",
+    "main.js.map": "/haysarodrigues/static/js/main.b9b4f74e.chunk.js.map",
     "runtime-main.js": "/haysarodrigues/static/js/runtime-main.7b9f0a98.js",
     "runtime-main.js.map": "/haysarodrigues/static/js/runtime-main.7b9f0a98.js.map",
     "static/js/2.0b220190.chunk.js": "/haysarodrigues/static/js/2.0b220190.chunk.js",
     "static/js/2.0b220190.chunk.js.map": "/haysarodrigues/static/js/2.0b220190.chunk.js.map",
     "index.html": "/haysarodrigues/index.html",
-    "precache-manifest.f4599cfed36604f08affdf2e306c4fd4.js": "/haysarodrigues/precache-manifest.f4599cfed36604f08affdf2e306c4fd4.js",
+    "precache-manifest.08a4d0b0ef6c94784f931f3d48812dc6.js": "/haysarodrigues/precache-manifest.08a4d0b0ef6c94784f931f3d48812dc6.js",
     "service-worker.js": "/haysarodrigues/service-worker.js",
-    "static/css/main.be1cf525.chunk.css.map": "/haysarodrigues/static/css/main.be1cf525.chunk.css.map",
+    "static/css/main.d6db9a41.chunk.css.map": "/haysarodrigues/static/css/main.d6db9a41.chunk.css.map",
     "static/js/2.0b220190.chunk.js.LICENSE.txt": "/haysarodrigues/static/js/2.0b220190.chunk.js.LICENSE.txt",
     "static/media/pp.jpeg": "/haysarodrigues/static/media/pp.982f3903.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.7b9f0a98.js",
     "static/js/2.0b220190.chunk.js",
-    "static/css/main.be1cf525.chunk.css",
-    "static/js/main.cb45a5eb.chunk.js"
+    "static/css/main.d6db9a41.chunk.css",
+    "static/js/main.b9b4f74e.chunk.js"
   ]
 }
