@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import StoryPhotoGallery from './StoryPhotoGallery'
+
 class Story extends Component {
   
   render() {
@@ -10,7 +12,7 @@ class Story extends Component {
           <h3 className='paragraphsFont'> {this.props.secondParagraph} </h3>
         </div>
         <div className='photoGrid'>
-          
+          <StoryPhotoGallery />
         </div>
       </div>
     )
