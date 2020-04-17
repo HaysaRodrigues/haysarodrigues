@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Story from '../story/Story';
-import data from '../../JSON/storyPhotos.json';
+import Story from '../../story/Story';
+import data from '../../../JSON/storyPhotos.json';
 
 export default class Catimbau extends Component {
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Menu from './components/Menu';
-import MainImage from './components/MainImage';
-import RioSaoFrancisco from './components/stories/RioSaoFrancisco'
-import Catimbau from './components/stories/Catimbau'
-import InteriorPernambuco from './components/stories/InteriorPernambuco'
-import Recife from './components/stories/Recife';
+import Menu from './components/menu/Menu';
+import MainImage from './components/mainImage/MainImage';
+import RioSaoFrancisco from './components/stories/saofrancisco/RioSaoFrancisco'
+import Catimbau from './components/stories/catimbau/Catimbau'
+import InteriorPernambuco from './components/stories/interior/InteriorPernambuco'
+import Recife from './components/stories/recife/Recife';
 import About from './components/about/About';
 
 

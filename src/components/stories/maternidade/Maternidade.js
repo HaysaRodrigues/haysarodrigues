@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Story from '../story/Story';
+import Story from '../../story/Story';
 
-const firstParagraph = 'tente fazer uma foto'
-const secondParagraph = 'para cada música de jonnhy hooker'
+const firstParagraph = 'cores'
+const secondParagraph = 'coloridas em P&B'
 
-export default class Recife extends Component {
+export default class Maternidade extends Component {
   render() {
     return (
       <div>

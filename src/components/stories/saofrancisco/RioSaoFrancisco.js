@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Story from '../story/Story';
+import Story from '../../story/Story';
 
 const firstParagraph = 'adeus velho chico'
 const secondParagraph = 'diz o povo nas margens'
