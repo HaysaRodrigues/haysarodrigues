@@ -1,15 +1,44 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import Story from '../../story/Story';
+import data from "../../../JSON/storyPhotos";
 
-const firstParagraph = 'tente fazer uma foto'
-const secondParagraph = 'para cada música de jonnhy hooker'
 
 export default class Recife extends Component {
-  render() {
-    return (
-      <div>
-        <Story firstParagraph = {firstParagraph} secondParagraph = {secondParagraph}/>
-      </div>
-    )
-  }
+
+    constructor() {
+        super();
+        this.state = {
+            title: '',
+            firstParagraph: '',
+            secondParagraph: '',
+            imagesFromStory: ''
+        }
+    }
+
+    componentDidMount() {
+        this.filterStoryByTitle('recife')
+    }
+
+    filterStoryByTitle(storyTitle) {
+        let story = data.story.filter(word => word.title === storyTitle)[0];
+        this.setState({
+            title: story.title,
+            firstParagraph: story.firstParagraph,
+            secondParagraph: story.secondParagraph,
+            imagesFromStory: story.imagesFromStory
+        })
+    }
+
+    render() {
+        return (
+            <div>
+                <Story
+                    title={this.state.title}
+                    firstParagraph={this.state.firstParagraph}
+                    secondParagraph={this.state.secondParagraph}
+                    photos={this.state.imagesFromStory}
+                />
+            </div>
+        )
+    }
 }

@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Gallery from 'react-photo-gallery';
-import photos from './photos';
 
-function StoryPhotoGallery() {
-    return (
-        <Gallery photos={photos} direction={"column"}/>
-    );
+class StoryPhotoGallery extends Component {
+    render() {
+        return (
+            <Gallery photos={this.props.photos} direction={"column"}/>
+        )
+    }
 }
 
 export default StoryPhotoGallery;
