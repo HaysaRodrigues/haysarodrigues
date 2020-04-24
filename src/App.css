@@ -19,7 +19,6 @@
     }
 }
 
-
 ul {
     list-style-type: none;
     padding-inline-start: 0px;
@@ -47,7 +46,7 @@ li {
     align-self: center;
     align-content: center;
     margin: 12px 15px auto;
-    max-width: 50%;
+    max-width: 46%;
 }
 
 .columnMenu {
@@ -88,10 +87,6 @@ header {
 
 footer {
     text-align: center;
-}
-
-.mainImage {
-    margin-top: 5%;
 }
 
 .appLink {

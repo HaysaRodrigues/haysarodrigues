@@ -1,0 +1,16 @@
+.containerImage {
+    width: 155%;
+    max-height: 80%;
+}
+
+.mainImage {
+    width: 100%
+}
+
+@media only screen and (max-width: 768px) {
+    .containerImage {
+        margin-left: 12%;
+        width: 250%;
+        max-height: 80%;
+    }
+}
