@@ -31,14 +31,12 @@ export default class Recife extends Component {
 
     render() {
         return (
-            <div>
                 <Story
                     title={this.state.title}
                     firstParagraph={this.state.firstParagraph}
                     secondParagraph={this.state.secondParagraph}
                     photos={this.state.imagesFromStory}
                 />
-            </div>
         )
     }
 }

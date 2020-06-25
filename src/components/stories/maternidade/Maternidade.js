@@ -7,9 +7,7 @@ const secondParagraph = 'coloridas em P&B'
 export default class Maternidade extends Component {
   render() {
     return (
-      <div>
         <Story firstParagraph = {firstParagraph} secondParagraph = {secondParagraph}/>
-      </div>
     )
   }
 }

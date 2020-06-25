@@ -1,22 +1,26 @@
 @media only screen and (max-width: 768px) {
-    .menu {
-        margin: -180px 0 0 -51px;
-        padding-bottom: 70px;
-        list-style-type: none;
-        transform-origin: 0% 0%;
-        transform: translate(0%, 0);
-        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    /*.menu {*/
+    /*    margin: -180px 0 0 -51px;*/
+    /*    padding-bottom: 70px;*/
+    /*    list-style-type: none;*/
+    /*    transform-origin: 0% 0%;*/
+    /*    transform: translate(0%, 0);*/
+    /*    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);*/
+    /*}*/
+    .menuContainer {
+
     }
 
-    .menuToggle {
-        display: block;
-        position: relative;
-        top: 50px;
-        left: 50px;
-        z-index: 1;
-        -webkit-user-select: none;
-        user-select: none;
-    }
+
+    /*.menuToggle {*/
+    /*    display: block;*/
+    /*    position: relative;*/
+    /*    top: 50px;*/
+    /*    left: 50px;*/
+    /*    z-index: 1;*/
+    /*    -webkit-user-select: none;*/
+    /*    user-select: none;*/
+    /*}*/
 }
 
 ul {
@@ -30,30 +34,56 @@ li {
 
 
 .mainContainer {
-    margin: 15px;
+    /*margin: 15px;*/
+    /*display: grid;*/
+    /*grid-template-columns: 20em 80em;*/
 }
 
 .menuContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*width: 100%;*/
+    /*display: grid;*/
+    /*grid-template-columns: 20em 80em;*/
+    display: grid;
+    grid-template-columns: 18em auto;
+
+
 }
 
-.container {
-    justify-content: space-between;
-    display: grid;
-    align-self: center;
-    align-content: center;
-    margin: 12px 15px auto;
-    max-width: 46%;
-}
+/*.container {*/
+/*    justify-content: space-between;*/
+/*    display: grid;*/
+/*    align-self: center;*/
+/*    align-content: center;*/
+/*    margin: 12px 15px auto;*/
+/*    max-width: 58%;*/
+/*}*/
 
 .columnMenu {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 25em;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*flex: 0 0 25em;*/
 }
+
+.thirdColumn {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.firstRow {
+    padding-top: 4em;
+    grid-row-start: 1;
+}
+
+.secondRow {
+    padding-top: 4em;
+    grid-row-start: 3;
+}
+
 
 .name {
     font-weight: 700;

@@ -2,7 +2,10 @@ import React, {Component} from 'react'
 import Story from '../../story/Story';
 import data from '../../../JSON/storyPhotos.json';
 
+// hooks
 export default class RioSaoFrancisco extends Component {
+
+    // fazer um foreach em um component storia
 
     constructor() {
         super();
@@ -30,14 +33,12 @@ export default class RioSaoFrancisco extends Component {
 
     render() {
         return (
-            <div>
-                <Story
-                    title={this.state.title}
-                    firstParagraph={this.state.firstParagraph}
-                    secondParagraph={this.state.secondParagraph}
-                    photos={this.state.imagesFromStory}
-                />
-            </div>
+            <Story
+                title={this.state.title}
+                firstParagraph={this.state.firstParagraph}
+                secondParagraph={this.state.secondParagraph}
+                photos={this.state.imagesFromStory}
+            />
         )
     }
 }

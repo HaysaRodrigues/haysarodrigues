@@ -1,6 +1,10 @@
 .containerImage {
-    width: 155%;
-    max-height: 80%;
+    /*width: 80em;*/
+    /*max-height: 80%;*/
+    width: 70em;
+    /*margin-top: 4em;*/
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
 .mainImage {

@@ -1,6 +1,6 @@
 .aboutContainer {
-    display: grid;
-    justify-items: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
 .imageCropper {

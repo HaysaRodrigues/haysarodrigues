@@ -6,7 +6,7 @@ class Story extends Component {
 
     render() {
         return (
-            <>
+            <div className='containerStory'>
                 <h1 className='storyTitle'> {this.props.title} </h1>
                 <div className='paragraphs'>
                     <h3 className='paragraphsFont'> {this.props.firstParagraph} </h3>
@@ -15,7 +15,7 @@ class Story extends Component {
                 <div className='photoGrid'>
                     <StoryPhotoGallery photos={this.props.photos}/>
                 </div>
-            </>
+            </div>
         )
     }
 }
