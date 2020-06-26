@@ -10,13 +10,13 @@ import Recife from './components/stories/recife/Recife';
 import About from './components/about/About';
 
 const getRoutes = () => {
-    let routes;
-    return routes = [
+    return [
         {'path': '/riosaofrancisco', 'component': RioSaoFrancisco},
         {'path': '/catimbau', 'component': Catimbau},
         {'path': '/interiordepernambuco', 'component': InteriorPernambuco},
         {'path': '/recife', 'component': Recife},
-        {'path': '/about', 'component': About}]
+        {'path': '/about', 'component': About}
+    ]
 };
 
 function App() {
