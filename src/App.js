@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Menu from './components/menu/Menu';
 import MainImage from './components/mainImage/MainImage';
 import RioSaoFrancisco from './components/stories/saofrancisco/RioSaoFrancisco'
@@ -9,8 +9,16 @@ import InteriorPernambuco from './components/stories/interior/InteriorPernambuco
 import Recife from './components/stories/recife/Recife';
 import About from './components/about/About';
 
-// for each pra criar as rotas
-// HEROKU
+const getRoutes = () => {
+    let routes;
+    return routes = [
+        {'path': '/riosaofrancisco', 'component': RioSaoFrancisco},
+        {'path': '/catimbau', 'component': Catimbau},
+        {'path': '/interiordepernambuco', 'component': InteriorPernambuco},
+        {'path': '/recife', 'component': Recife},
+        {'path': '/about', 'component': About}]
+};
+
 function App() {
     return (
         <Router>
@@ -26,11 +34,11 @@ function App() {
                 </div>
                 <Switch>
                     <Route exact path='/' component={MainImage}/>
-                    <Route path='/riosaofrancisco' component={RioSaoFrancisco}/>
-                    <Route path='/catimbau' component={Catimbau}/>
-                    <Route path='/interiordepernambuco' component={InteriorPernambuco}/>
-                    <Route path='/recife' component={Recife}/>
-                    <Route path='/about' component={About}/>
+                    {
+                        getRoutes().map((route, index) => {
+                            return <Route path={route.path} key={index} component={route.component}/>
+                        })
+                    }
                 </Switch>
                 <div className="thirdColumn">
                 </div>
