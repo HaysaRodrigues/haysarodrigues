@@ -16,6 +16,8 @@ jobs:
 
       - name: Deploy 🚀
         uses: HaysaRodrigues/haysarodrigues@master
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.7.3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
