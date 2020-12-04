@@ -3,3 +3,4 @@ description: 'aaaa'
 author: 'haysarodrigues'
 runs:
   using: 'node12'
+  main: 'npm start'
