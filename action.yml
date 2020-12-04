@@ -1,0 +1,6 @@
+name: 'Haysa setup'
+description: 'aaaa'
+author: 'haysarodrigues'
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
